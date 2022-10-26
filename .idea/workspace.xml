@@ -1,31 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Hotel reservation:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b16ffe6a-0280-483a-afe3-1a6949dae9f1" name="Changes" comment="" />
+    <list default="true" id="b16ffe6a-0280-483a-afe3-1a6949dae9f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MVC/metier/Extras_réservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MVC/model/Extras_réservationBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Hotel_reservation_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Hotel_reservation_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/Config/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/Config/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/controller/ChambreServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/controller/ChambreServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/controller/Co_chambreServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/controller/Co_chambreServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/controller/RservationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/controller/RéservationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/metier/Chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/metier/Chambre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/metier/Co_chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/metier/Co_chambre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/metier/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/metier/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/metier/Operation_co_chambre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/metier/Operation_co_chambre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/metier/Operation_reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/metier/Operation_reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/metier/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/metier/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/model/ChambreBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/model/ChambreBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/model/Co_chambreBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/model/Co_chambreBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MVC/model/ReservationBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MVC/model/ReservationBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Réservation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Réservation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/aaa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Reservationuser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/display.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image-process.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/vol-reserve.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/vol-reserve.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/toutreservation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/toutreservation.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MVC/controller/ChambreServlet.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MVC/metier/Chambre.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MVC/metier/Operation_reservation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/MVC/metier/Reservation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/Dashboard.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2GDOtwWKTLH2YtBOEw5okT2dPlU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fahof/Downloads/mysql-connector-java-8.0.30.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.applicationServers&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fahof\OneDrive\Desktop\Hotel reservation\src\main\java" />
+      <recent name="C:\Users\fahof\OneDrive\Desktop\Hotel reservation\src\main\java\model" />
+      <recent name="C:\Users\fahof\OneDrive\Desktop\Hotel reservation\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fahof\OneDrive\Desktop\Hotel reservation\src\main\webapp" />
+      <recent name="C:\Users\fahof\OneDrive\Desktop\Hotel reservation\src\main\webapp\Admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <set>
+              <option value="Tomcat 10.0.271" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.271">
+    <configuration name="Operation_co_chambre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVC.metier.Operation_co_chambre" />
+      <module name="Hotel reservation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MVC.metier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMetier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MVC.metier.TestMetier" />
+      <module name="Hotel reservation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MVC.metier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.0.271" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.271" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Hotel_reservation_war_exploded/Dashboard.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Hotel reservation:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Hotel_reservation_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="fdd00fa5-52be-4360-8bb4-bd174d41ff75" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54838" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Hotel reservation:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Operation_co_chambre" />
+      <item itemvalue="Application.TestMetier" />
+      <item itemvalue="Tomcat Server.Tomcat 10.0.271" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Operation_co_chambre" />
+        <item itemvalue="Application.TestMetier" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,9 +288,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665919906011</updated>
-      <workItem from="1665919907284" duration="1000" />
+      <workItem from="1665919907284" duration="3150000" />
+      <workItem from="1665928493324" duration="10985000" />
+      <workItem from="1665945795012" duration="2035000" />
+      <workItem from="1665955725060" duration="302000" />
+      <workItem from="1665996023157" duration="6213000" />
+      <workItem from="1666082923383" duration="4856000" />
+      <workItem from="1666096052789" duration="10681000" />
+      <workItem from="1666130928706" duration="11415000" />
+      <workItem from="1666161796248" duration="3279000" />
+      <workItem from="1666166986772" duration="6891000" />
+      <workItem from="1666175055690" duration="1352000" />
+      <workItem from="1666176434001" duration="731000" />
+      <workItem from="1666183261222" duration="11834000" />
+      <workItem from="1666253650909" duration="8615000" />
+      <workItem from="1666267329349" duration="15585000" />
+      <workItem from="1666289579667" duration="7857000" />
+      <workItem from="1666339804772" duration="10565000" />
+      <workItem from="1666358554691" duration="15247000" />
+      <workItem from="1666440040558" duration="8437000" />
+      <workItem from="1666456705624" duration="9540000" />
+      <workItem from="1666520441016" duration="18145000" />
+      <workItem from="1666598865595" duration="3281000" />
+      <workItem from="1666615886866" duration="4811000" />
+      <workItem from="1666685663145" duration="5815000" />
+      <workItem from="1666701271685" duration="8670000" />
+      <workItem from="1666758817062" duration="9318000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -48,5 +330,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Hotel_reservation$Tomcat_10_0_271.ic" NAME="Tomcat 10.0.271 Coverage Results" MODIFIED="1666195521823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Hotel_reservation$Tomcat_10_0_27.ic" NAME="Tomcat 10.0.27 Coverage Results" MODIFIED="1666175235354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

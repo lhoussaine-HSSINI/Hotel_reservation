@@ -205,12 +205,12 @@ td>a>i {
     color: #0b0b0b!important;
 }
 
-#passager_plus {
+#passager_plus , #passager_plusa{
     margin-right: 8px !important;
 }
 /*===========================   vol  ======================================*/
 .bg_btn_add_vol {
-    width: 60px !important;
+    width: 96px !important;
     margin: 5px 5px !important;
 }
 .td_table_vol{
@@ -232,4 +232,41 @@ td>a>i {
 tbody, td, tfoot, th, thead, tr  {height: 54px !important;}
 .table>tbody {
     vertical-align: middle !important;
+}
+
+td,th{
+    text-align: center !important;
+}
+
+#aaa div{
+    background-color: #a9a9a9a1 !important;
+    padding: 4px !important;
+    font-size: small;
+}
+
+.ma_image_group{
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+ma_image_group_1 {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
+#images_1, #images_2, #images_3, #images_4, #images_5 ,#images_6, .images_11{
+    width: 70px !important;
+    background-color: green !important;
+    border-radius: 8px !important;
+    margin: 0px 2px 0 2px !important;
+}
+.navbar{
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 2 !important;
+}
+
+.type_chambre_link_id{
+    text-decoration: none !important;
+    color: white !important;
 }

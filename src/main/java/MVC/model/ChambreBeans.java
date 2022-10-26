@@ -1,4 +1,4 @@
-package MVC.controller;
+package MVC.model;
 
 import MVC.metier.Chambre;
 

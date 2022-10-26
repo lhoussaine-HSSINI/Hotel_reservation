@@ -1,5 +1,5 @@
 
-package Config;
+package MVC.Config;
 
 import java.sql.*;
 
@@ -8,9 +8,9 @@ public class DB {
 
     static {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             connection= DriverManager.getConnection
-                    ("jdbc:mysql://localhost:3306/registro","root","");
+                    ("jdbc:mysql://localhost:3306/hotel_reservation","root","");
         } catch (Exception e) {
 
             e.printStackTrace();

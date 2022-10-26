@@ -522,6 +522,9 @@ progress {
     font-weight: 300;
     line-height: 1.2
 }
+.img-dyali {
+    width: 20% !important;
+}
 
 @media (min-width:1200px) {
     .display-1 {

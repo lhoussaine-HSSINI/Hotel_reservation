@@ -3,4 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
+    <servlet>
+        <servlet-name>ajouterchambre</servlet-name>
+        <servlet-class>MVC.controller.ChambreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ajouterchambre</servlet-name>
+        <url-pattern>/Dashboard</url-pattern>
+    </servlet-mapping>
+<!--usr-->
+    <!--    page reservation post and get-->
+    <servlet>
+        <servlet-name>reservation_user</servlet-name>
+        <servlet-class>MVC.controller.RéservationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>reservation_user</servlet-name>
+        <url-pattern>/reservation</url-pattern>
+    </servlet-mapping>
+    <!--    page home post and get-->
+
 </web-app>
